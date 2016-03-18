@@ -326,6 +326,99 @@ footer a:hover {
   color: #444;
 }
 
+form
+{
+	background-color: transparent;
+}
+
+form input, form textarea
+{
+	float: left;
+	width: 100%;
+	resize: none;
+}
+
+form td
+{
+	vertical-align: top;
+	padding-bottom: 10px;
+}
+
+#contactTable *, #contactTable
+{
+	border-color: transparent;
+}
+
+#nameLabel, #courrielLabel, #messageLabel
+{
+	float: left;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+.intro
+{
+	float: left;
+}
+
+.intro p
+{
+	text-indent: 10px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.intro #firstText
+{
+	float: left;
+	width: 70%;
+}
+
+.intro #secondText
+{
+	float: right;
+	width: 100%;
+}
+
+.intro #introSecond
+{
+	padding-left: 5%;
+	float: left;
+	width: 20%;
+}
+
+.game p
+{
+	text-indent: 10px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#link
+{
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.game iframe
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.game img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
